@@ -2,7 +2,7 @@
   <div class="bg text-center">
     <div class="form-signin">
       <form>
-        <img class="mb-4" src="@/assets/demo/logo.svg" alt="" width="72" height="57">
+        <img class="mb-4" src="/assets/favicon.ico" alt="" width="72" height="72">
         <h1 class="h3 mb-3 fw-normal">ログイン</h1>
     
         <div class="form-floating">
