@@ -13,7 +13,7 @@ export default defineConfig({
   },
   build: {
     rollupOptions: {
-      external: [/^node:.*/],
-    },
+      external: 'NonExistingPath'
+    }
   },
 })
