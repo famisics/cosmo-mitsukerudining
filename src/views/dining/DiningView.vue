@@ -13,13 +13,13 @@ const state = reactive({ tab: 'info',feed: 'all',fav: false })
         <p>SID: onigiri_lover</p>
         <div class="sns">
           <a href="#"></a>
-          <a href="#"><img src="../../assets/icon/telephone.png" alt="電話" width="40" height="40"></a>
-          <a href="#"><img src="../../assets/icon/mail.png" alt="Eメール" width="40" height="40"></a>
-          <a href="#"><img src="../../assets/icon/twitter.svg" alt="Twitter" width="40" height="40"></a>
-          <a href="#"><img src="../../assets/icon/instagram.svg" alt="Instagram" width="40" height="40"></a>
-          <a href="#"><img src="../../assets/icon/facebook.svg" alt="Facebook" width="40" height="40"></a>
-          <a href="#"><img src="../../assets/icon/line.svg" alt="LINE" width="40" height="40"></a>
-          <a href="#"><img src="../../assets/icon/youtube.svg" alt="YouTube" width="40" height="40"></a>
+          <a href="#"><img src="@/assets/icon/telephone.png" alt="電話" width="40" height="40"></a>
+          <a href="#"><img src="@/assets/icon/mail.png" alt="Eメール" width="40" height="40"></a>
+          <a href="#"><img src="@/assets/icon/twitter.svg" alt="Twitter" width="40" height="40"></a>
+          <a href="#"><img src="@/assets/icon/instagram.svg" alt="Instagram" width="40" height="40"></a>
+          <a href="#"><img src="@/assets/icon/facebook.svg" alt="Facebook" width="40" height="40"></a>
+          <a href="#"><img src="@/assets/icon/line.svg" alt="LINE" width="40" height="40"></a>
+          <a href="#"><img src="@/assets/icon/youtube.svg" alt="YouTube" width="40" height="40"></a>
         </div>
         <p>おにぎりを作ります</p>
         <ul class="nav nav-pills mb-3">
@@ -83,10 +83,10 @@ const state = reactive({ tab: 'info',feed: 'all',fav: false })
           </div>
             <div class="carousel-inner">
               <div class="carousel-item">
-                <img class="image" src="../../assets/demo/images/01.jpg">
+                <img class="image" src="@/assets/demo/images/01.jpg">
               </div>
               <div class="carousel-item active">
-                <img class="image" src="../../assets/demo/images/02.jpg">
+                <img class="image" src="@/assets/demo/images/02.jpg">
               </div>
             </div>
           <button type="button" class="carousel-control-prev" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
@@ -120,10 +120,10 @@ const state = reactive({ tab: 'info',feed: 'all',fav: false })
           </div>
             <div class="carousel-inner">
               <div class="carousel-item">
-                <img class="image" src="../../assets/demo/images/01.jpg">
+                <img class="image" src="@/assets/demo/images/01.jpg">
               </div>
               <div class="carousel-item active">
-                <img class="image" src="../../assets/demo/images/02.jpg">
+                <img class="image" src="@/assets/demo/images/02.jpg">
               </div>
             </div>
           <button type="button" class="carousel-control-prev" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
@@ -168,13 +168,13 @@ const state = reactive({ tab: 'info',feed: 'all',fav: false })
             </div>
             <div class="carousel-inner">
               <div class="carousel-item active">
-                <img class="image" src="../../assets/demo/images/03.jpg">
+                <img class="image" src="@/assets/demo/images/03.jpg">
               </div>
               <div class="carousel-item">
-                <img class="image" src="../../assets/demo/images/04.jpg">
+                <img class="image" src="@/assets/demo/images/04.jpg">
               </div>
               <div class="carousel-item">
-                <img class="image" src="../../assets/demo/images/05.jpg">
+                <img class="image" src="@/assets/demo/images/05.jpg">
               </div>
             </div>
             <button type="button" class="carousel-control-prev" data-bs-target="#carouselExample1" data-bs-slide="prev">
@@ -203,7 +203,7 @@ const state = reactive({ tab: 'info',feed: 'all',fav: false })
             </div>
             <div class="carousel-inner">
               <div class="carousel-item active">
-                <img class="image" src="../../assets/demo/images/06.jpg">
+                <img class="image" src="@/assets/demo/images/06.jpg">
               </div>
             </div>
             <button type="button" class="carousel-control-prev" data-bs-target="#carouselExample2" data-bs-slide="prev">
@@ -239,10 +239,10 @@ const state = reactive({ tab: 'info',feed: 'all',fav: false })
           </div>
           <div class="carousel-inner">
             <div class="carousel-item">
-              <img class="image" src="../../assets/demo/images/01.jpg">
+              <img class="image" src="@/assets/demo/images/01.jpg">
             </div>
             <div class="carousel-item active">
-              <img class="image" src="../../assets/demo/images/02.jpg">
+              <img class="image" src="@/assets/demo/images/02.jpg">
             </div>
           </div>
           <button type="button" class="carousel-control-prev" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
@@ -273,14 +273,14 @@ const state = reactive({ tab: 'info',feed: 'all',fav: false })
   min-width: 400px;
 }
 .basic .facade {
-  background: url('../../assets/demo/images/onigiri_lover.jpg') center right no-repeat;
+  background: url('@/assets/demo/images/onigiri_lover.jpg') center right no-repeat;
   background-size: contain;
   width: 100%;
 }
 .head-cover {
   height: 250px;
   margin: 20px;
-  background: url('../../assets/demo/images/onigiri_lover.jpg') center center no-repeat;
+  background: url('@/assets/demo/images/onigiri_lover.jpg') center center no-repeat;
   background-size: contain;
 }
 .sns img {

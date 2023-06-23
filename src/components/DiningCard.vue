@@ -10,7 +10,7 @@ defineProps({
 <template>
   <a class="container p-4 border rounded _card text-decoration-none" href="/sid/onigiri_lover">
     <div class="d-flex _username">
-      <img src="../assets/demo/uid/icondemo.jpg">
+      <img src="@/assets/demo/uid/icondemo.jpg">
       <div>
         <h3>おにぎり食堂</h3>
         <p>北海道 札幌市北区 北61条西41丁目 3-35</p>

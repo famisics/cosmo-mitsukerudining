@@ -10,13 +10,13 @@ const state = reactive({ tab: 'info' })
     <p>UID: yasudanosuke</p>
     <div class="sns">
       <a href="#"></a>
-      <a href="#"><img src="../../assets/icon/telephone.png" alt="電話" width="40" height="40"></a>
-      <a href="#"><img src="../../assets/icon/mail.png" alt="Eメール" width="40" height="40"></a>
-      <a href="#"><img src="../../assets/icon/twitter.svg" alt="Twitter" width="40" height="40"></a>
-      <a href="#"><img src="../../assets/icon/instagram.svg" alt="Instagram" width="40" height="40"></a>
-      <a href="#"><img src="../../assets/icon/facebook.svg" alt="Facebook" width="40" height="40"></a>
-      <a href="#"><img src="assets/icon/line.svg" alt="LINE" width="40" height="40"></a>
-      <a href="#"><img src="../../assets/icon/youtube.svg" alt="YouTube" width="40" height="40"></a>
+      <a href="#"><img src="@/assets/icon/telephone.png" alt="電話" width="40" height="40"></a>
+      <a href="#"><img src="@/assets/icon/mail.png" alt="Eメール" width="40" height="40"></a>
+      <a href="#"><img src="@/assets/icon/twitter.svg" alt="Twitter" width="40" height="40"></a>
+      <a href="#"><img src="@/assets/icon/instagram.svg" alt="Instagram" width="40" height="40"></a>
+      <a href="#"><img src="@/assets/icon/facebook.svg" alt="Facebook" width="40" height="40"></a>
+      <a href="#"><img src="@/assets/icon/line.svg" alt="LINE" width="40" height="40"></a>
+      <a href="#"><img src="@/assets/icon/youtube.svg" alt="YouTube" width="40" height="40"></a>
     </div>
     <p>よろしくお願いします<br><br>主に東区でたまねぎを食べています</p>
     <ul class="nav nav-pills mb-3">
@@ -63,10 +63,10 @@ const state = reactive({ tab: 'info' })
           </div>
           <div class="carousel-inner">
             <div class="carousel-item">
-              <img class="image" src="../../assets/demo/images/01.jpg">
+              <img class="image" src="@/assets/demo/images/01.jpg">
             </div>
             <div class="carousel-item active">
-              <img class="image" src="../../assets/demo/images/02.jpg">
+              <img class="image" src="@/assets/demo/images/02.jpg">
             </div>
           </div>
           <button type="button" class="carousel-control-prev" data-bs-target="#carouselExample2" data-bs-slide="prev">

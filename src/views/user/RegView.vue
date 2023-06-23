@@ -7,7 +7,7 @@ const state = reactive({ started: true })
   <div class="bg text-center">
     <div class="form-signin" v-if="state.started">
       <div>
-        <img class="mb-4" src="../../assets/demo/logo.svg" alt="" width="72" height="57">
+        <img class="mb-4" src="@/assets/demo/logo.svg" alt="" width="72" height="57">
         <h1 class="h3 mb-3 fw-normal">新規登録</h1>
         <div class="mb-3">
           <label>
@@ -25,7 +25,7 @@ const state = reactive({ started: true })
     </div>
     <div class="form-signin" v-else>
       <div>
-        <img class="mb-4" src="../../assets/demo/logo.svg" alt="" width="72" height="57">
+        <img class="mb-4" src="@/assets/demo/logo.svg" alt="" width="72" height="57">
         <h3 class="h3 mb-3 fw-normal">新規登録</h3>
         <form>
           <div class="form-floating mb-3">

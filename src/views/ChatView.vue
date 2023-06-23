@@ -56,22 +56,22 @@ const says = ref([
         <div v-if="state.card" @click="_chathidden()">
           <div class="card mt-2" v-if="state.tab === 'all'">
             <ul class="list-group">
-              <button class="list-group-item list-group-item-action d-flex justify-content-between _pp"><div><img src="../assets/demo/uid/icondemo.jpg">すべ太郎</div><span class="badge bg-danger rounded-pill m-2">1</span></button>
-              <button class="list-group-item list-group-item-action d-flex justify-content-between _pp active"><div><img src="../assets/demo/uid/icondemo.jpg">安田 静恵</div></button>
-              <button class="list-group-item list-group-item-action d-flex justify-content-between _pp"><div><img src="../assets/demo/uid/icondemo.jpg">池田 花子 - 金曜おにおん食堂</div></button>
-              <button class="list-group-item list-group-item-action d-flex justify-content-between _pp"><div><img src="../assets/demo/uid/icondemo.jpg">玉葱 食之助</div></button>
+              <button class="list-group-item list-group-item-action d-flex justify-content-between _pp"><div><img src="@/assets/demo/uid/icondemo.jpg">すべ太郎</div><span class="badge bg-danger rounded-pill m-2">1</span></button>
+              <button class="list-group-item list-group-item-action d-flex justify-content-between _pp active"><div><img src="@/assets/demo/uid/icondemo.jpg">安田 静恵</div></button>
+              <button class="list-group-item list-group-item-action d-flex justify-content-between _pp"><div><img src="@/assets/demo/uid/icondemo.jpg">池田 花子 - 金曜おにおん食堂</div></button>
+              <button class="list-group-item list-group-item-action d-flex justify-content-between _pp"><div><img src="@/assets/demo/uid/icondemo.jpg">玉葱 食之助</div></button>
             </ul>
           </div>
           <div class="card mt-2" v-if="state.tab === 'proc'">
             <ul class="list-group">
-              <button class="list-group-item list-group-item-action d-flex justify-content-between _pp"><div><img src="../assets/demo/uid/icondemo.jpg">末太郎</div><span class="badge bg-danger rounded-pill m-2">10</span></button>
-              <button class="list-group-item list-group-item-action d-flex justify-content-between _pp active"><div><img src="../assets/demo/uid/icondemo.jpg">安田 静恵</div></button>
-              <button class="list-group-item list-group-item-action d-flex justify-content-between _pp"><div><img src="../assets/demo/uid/icondemo.jpg">玉葱 食之助 - 金曜おにおん食堂</div><span class="badge bg-danger rounded-pill m-2">12</span></button>
+              <button class="list-group-item list-group-item-action d-flex justify-content-between _pp"><div><img src="@/assets/demo/uid/icondemo.jpg">末太郎</div><span class="badge bg-danger rounded-pill m-2">10</span></button>
+              <button class="list-group-item list-group-item-action d-flex justify-content-between _pp active"><div><img src="@/assets/demo/uid/icondemo.jpg">安田 静恵</div></button>
+              <button class="list-group-item list-group-item-action d-flex justify-content-between _pp"><div><img src="@/assets/demo/uid/icondemo.jpg">玉葱 食之助 - 金曜おにおん食堂</div><span class="badge bg-danger rounded-pill m-2">12</span></button>
             </ul>
           </div>
           <div class="card mt-2" v-if="state.tab === 'warn'">
             <ul class="list-group">
-              <button class="list-group-item list-group-item-action d-flex justify-content-between _pp"><div><img src="../assets/demo/uid/icondemo.jpg">みつけるダイニング運営</div><span class="badge bg-danger rounded-pill m-2">14</span></button>
+              <button class="list-group-item list-group-item-action d-flex justify-content-between _pp"><div><img src="@/assets/demo/uid/icondemo.jpg">みつけるダイニング運営</div><span class="badge bg-danger rounded-pill m-2">14</span></button>
             </ul>
           </div>
         </div>

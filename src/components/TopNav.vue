@@ -2,7 +2,7 @@
   <nav class="navbar navbar-expand-md bg-body-tertiary sticky-top">
     <div class="container-fluid">
       <router-link class="navbar-brand fw-bold" to="/">
-        <!-- <img src="../assets/eating.svg" width="30" height="24" class="d-inline-block align-text-top header-icon"> -->
+        <!-- <img src="@/assets/eating.svg" width="30" height="24" class="d-inline-block align-text-top header-icon"> -->
         みつけるダイニング
       </router-link>
       <!-- <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target=".nav_mobile" aria-controls="nav_mobile" aria-expanded="false">

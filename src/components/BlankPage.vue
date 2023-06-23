@@ -23,7 +23,7 @@ defineProps({
   top: 0;
   height: 100%;
   width: 100%;
-  background: url('../assets/demo/uid/P1080681.JPG') center center;
+  background: url('@/assets/demo/uid/P1080681.JPG') center center;
   background-size: cover;
   background-color: #21252984;
   background-blend-mode: darken;
