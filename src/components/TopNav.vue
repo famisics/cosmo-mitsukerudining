@@ -33,7 +33,7 @@
             </ul>
           </li> -->
         </ul>
-        <div class="d-flex">
+        <div class="d-none d-lg-flex">
           <router-link class="btn btn-outline-warning border-2 mx-2 pt-2" to="/login">ログイン</router-link>
         </div>
       </div>

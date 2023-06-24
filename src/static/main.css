@@ -1,3 +1,5 @@
+/*! フォント設定 */
+@import url('https://fonts.googleapis.com/css2?family=M+PLUS+Rounded+1c:wght@400&display=swap');
 /*! スクロールバー */
 body {overflow-y: scroll;}
 ::-webkit-scrollbar {width: 8px; height: 8px;}
@@ -5,6 +7,9 @@ body {overflow-y: scroll;}
 ::-webkit-scrollbar-track {background: var(	--bs-border-color);}
 
 /*! メイン設定 */
+body {
+    font-family: 'M PLUS Rounded 1c', sans-serif;
+}
 p, label {
     color: var(--bs-body-color);
 }
