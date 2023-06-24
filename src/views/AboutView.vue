@@ -93,6 +93,14 @@
           <th scope="row">2023.03.20</th>
           <td>デモ写真の変更、ディレクトリ構造の最適化、カラー調整</td>
         </tr>
+        <tr>
+          <th scope="row">2023.06.24</th>
+          <td>CDNの最適化、assets配信の最適化、ナビゲーションバーの表示が崩れる問題を修正</td>
+        </tr>
+        <tr>
+          <th scope="row">-</th>
+          <td>これ以降の変更履歴はGithubを参照してください</td>
+        </tr>
       </tbody>
     </table>
   </div>

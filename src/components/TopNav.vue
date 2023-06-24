@@ -3,7 +3,7 @@
     <div class="container-fluid">
       <router-link class="navbar-brand fw-bold" to="/">
         <!-- <img src="@/assets/eating.svg" width="30" height="24" class="d-inline-block align-text-top header-icon"> -->
-        みつけるダイニング
+        みつけるダイニング<p class="alpha">CLOSED ALPHA</p>
       </router-link>
       <!-- <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target=".nav_mobile" aria-controls="nav_mobile" aria-expanded="false">
         <span class="navbar-toggler-icon"></span>
@@ -11,7 +11,7 @@
       <div class="collapse navbar-collapse nav_mobile">
         <ul class="navbar-nav me-auto mb-2 mb-md-0">
           <li class="nav-item">
-            <router-link class="nav-link" to="/find"><i class="material-symbols-rounded">Search</i><span>子ども食堂を探す</span></router-link>
+            <router-link class="nav-link" to="/find"><i class="material-symbols-rounded">Search</i><span>食堂を探す</span></router-link>
           </li>
           <li class="nav-item">
             <router-link class="nav-link" to="/chat"><i class="material-symbols-rounded">Sms</i><span>チャット</span></router-link>
@@ -20,7 +20,7 @@
             <router-link class="nav-link" to="/fav"><i class="material-symbols-rounded">Favorite</i><span>お気に入り</span></router-link>
           </li>
           <li class="nav-item">
-            <router-link class="nav-link" to="/about"><i class="material-symbols-rounded">Info</i><span>About</span></router-link>
+            <router-link class="nav-link d-none d-lg-flex" to="/about"><i class="material-symbols-rounded">Info</i><span>About</span></router-link>
           </li>
           <!-- <li class="nav-item dropdown">
             <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
@@ -63,5 +63,14 @@ nav a.router-link-exact-active {
 }
 .nav-item a span {
   margin-left: 5px;
+}
+.alpha {
+  font-size: .2em;
+  line-height: 0;
+  text-align: right;
+}
+.navbar-brand {
+  padding: 0;
+  height: 40px;
 }
 </style>
