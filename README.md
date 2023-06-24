@@ -1,6 +1,8 @@
 # みつけるダイニング
 ## 大人(子どもの保護者、食堂運営者、ボランティア)向け
 
+[子ども向けアプリ](https://github.com/famisics/cosmo-mitsukerudining-kids)
+
 Vue3 / vue-router / Vite  / Sweetalert2
 
 ## Recommended IDE Setup
