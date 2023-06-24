@@ -70,7 +70,7 @@ onMounted(() => {
 </script>
 <template>
   <div class="alert m-4 alert-info" role="alert">
-    子ども向けみつけるダイニングは<a class="text-body" href="https://cmd-kids.stnfy.com">こちら</a>
+    子ども向けみつけるダイニングは<a class="text-body" href="https://cosmo-kids.stnfy.com">こちら</a>
   </div>
   <div class="mt-5 container">
     <h2>ホーム</h2>
