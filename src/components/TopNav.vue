@@ -65,7 +65,8 @@ nav a.router-link-exact-active {
   margin-left: 5px;
 }
 .alpha {
-  font-size: .2em;
+  margin-top: 3px;
+  font-size: 11px;
   line-height: 0;
   text-align: right;
 }
