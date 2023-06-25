@@ -3,7 +3,7 @@
     <div class="container-fluid">
       <router-link class="navbar-brand fw-bold" to="/">
         <!-- <img src="@/assets/eating.svg" width="30" height="24" class="d-inline-block align-text-top header-icon"> -->
-        みつけるダイニング<p class="alpha">CLOSED ALPHA</p>
+        みつけるダイニング<p class="alpha">CLOSED ALPHA (DEMO)</p>
       </router-link>
       <!-- <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target=".nav_mobile" aria-controls="nav_mobile" aria-expanded="false">
         <span class="navbar-toggler-icon"></span>
@@ -69,6 +69,8 @@ nav a.router-link-exact-active {
   font-size: 11px;
   line-height: 0;
   text-align: right;
+  font-weight: normal;
+  letter-spacing: .5px;
 }
 .navbar-brand {
   padding: 0;
