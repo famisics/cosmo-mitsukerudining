@@ -4,6 +4,7 @@
 [子ども向けアプリ](https://github.com/famisics/cosmo-mitsukerudining-kids)
 
 Vue3 / vue-router / Vite  / Sweetalert2
+今後は、Nuxt, SSR, SQL データベースによる構造化データの読み取り/管理への対応を検討中です
 
 ## Recommended IDE Setup
 
