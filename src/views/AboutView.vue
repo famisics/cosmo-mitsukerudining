@@ -2,6 +2,9 @@
   <div id="about" class="mt-5 container">
     <h2>About</h2>
     <p>みつけるダイニングでは、子ども食堂をみつけるサービスを提供しています。</p>
+    <h4>Github</h4>
+    <p>このWebページはGithubで管理されています</p>
+    <a href="https://github.com/famisics/cosmo-mitsukerudining" target="_blank">github.com/famisics/cosmo-mitsukerudining</a>
   </div>
   <div id="release" class="container mt-5">
     <h2>リリースノート</h2>
