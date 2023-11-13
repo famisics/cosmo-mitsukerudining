@@ -1,4 +1,5 @@
 import { createApp } from 'vue'
+import VueGtag from "vue-gtag"
 import App from './App.vue'
 import router from './router'
 
@@ -10,4 +11,7 @@ import './static/ColorModes.js'
 const app = createApp(App)
 
 app.use(router)
+app.use(VueGtag, {
+  config: { id: "G-CJGRVF45YV" }
+})
 app.mount('#app')
