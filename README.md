@@ -1,7 +1,10 @@
 # みつけるダイニング
 ## 大人(子どもの保護者、食堂運営者、ボランティア)向け
 
-[子ども向けアプリ](https://github.com/famisics/cosmo-mitsukerudining-kids)
+デプロイされたアプリ：
+[https://mitsukerudining.pages.dev](https://mitsukerudining.pages.dev)
+
+[子ども向けアプリのリポジトリ](https://github.com/famisics/cosmo-mitsukerudining-kids)
 
 Vue3 / vue-router / Vite  / Sweetalert2
 今後は、Nuxt, SSR, SQL データベースによる構造化データの読み取り/管理への対応を検討中です
